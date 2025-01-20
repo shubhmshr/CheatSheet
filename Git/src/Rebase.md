@@ -1,0 +1,6 @@
+- Alternative to Merging and Reorganize your repo's history.
+- You can reorder, rewrite commit messages and even squash multiple commits into single commit
+- **TIDY up your code before pushing your local branch to a remote repository**
+- Allows you to clean up commit history before you push to remote.
+- **Use for branches that you haven't shared with anyone else**
+- Only meant for **local repo and local branch**
