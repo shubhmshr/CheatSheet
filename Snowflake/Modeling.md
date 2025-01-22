@@ -14,7 +14,7 @@
 - As table data is broken up in micro-partitions, column values naturally group themselves into data segments. The *degree of variance of column values and their overlap* across micro-partitions is known as *clustering*.
 - Lesser the overlap between partitions, higher the degree of query and column pruning that the optimizer can provide.
 
-	![](Pasted%20image%2020241103164632.png)
+	![Pasted%20image%2020241103164632.png](https://github.com/shubhmshr/CheatSheet/blob/main/Pasted%20image%2020241103164632.png))
 - Snowflake services layer also stores clustering statistics:
 	- Total no of micro-partitions in each table.
 	- No of micro-partitions containing values that overlap with each other.
